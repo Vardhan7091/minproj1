@@ -1,0 +1,45 @@
+@keyframes example {
+  0%   {background-color: #ffffff;}
+  25%  {background-color: #ffffb3;}
+  50%  {background-color: #ffff4d;}
+  100% {background-color: #ffff00;}
+}
+
+#div1
+{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border-style:double solid groove;
+  border-radius:15px;
+}
+
+#div2
+{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border-style:solid double groove;
+  border-radius:15px;
+}
+
+#div3
+{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  border-style:double solid groove;
+  border-radius:15px;
+}
+
+#can1
+{
+  border-style:ridge;
+  border-radius:10px;
+  height:200px;
+  width:350px;
+}
+
+.body
+{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,219,223,1) 0%, rgba(248,254,255,1) 100%);
+  text-align:center;
+  animation-name:example;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

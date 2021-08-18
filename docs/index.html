@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Vardhan7091 Test Site</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="body">
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1>Mini Project</h1>
+
+<div id="div1">
+  <h1>Fun with filters</h1>
+  <canvas id="can1">
+  </canvas>
+</div>
+
+<div id="div2">
+  <h2>Loading image</h2>
+  <input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "imageinput"
+       onchange = "upload()">
+</div>
+
+<div id="div3">
+  <h2>Choose a filter</h2>
+  <input  type="button" value="Gray Scale" id="butt1" onclick="dofilterone()">
+  <input  type="button" value="Red" id="butt2" onclick="dofiltertwo()">
+  <input  type="button" value="Rainbow" id="buttrain" onclick="dorainbow()">
+  <h2>Ellipse filter</h2>
+  <input  type="button" value="Ellipse filter" id="butt3" onclick="dofilterthree()">
+  <h2>Want to reset to original image?</h2>
+  <input  type="button" value="Reset" id="resetbutt" onclick="doreset()">
+  <input  type="button" value="Clear Canvas" id="canvasclear" onclick="doclear()">
+</div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
